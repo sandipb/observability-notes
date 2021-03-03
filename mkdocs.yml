@@ -1,0 +1,10 @@
+site_name: My Notes on Observability
+repo_url: https://github.com/sandipb/observability-notes
+site_author: Sandip Bhattacharya
+
+nav:
+  - Home: index.md
+  - Prometheus: prometheus.md
+
+theme:
+  name: material
