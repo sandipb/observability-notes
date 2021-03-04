@@ -10,9 +10,11 @@
 
 - [Life of a label](https://www.robustperception.io/life-of-a-label): How do labels get created and modified between scrape and storage.
 - [Extracting labels from legacy metric names](https://www.robustperception.io/extracting-labels-from-legacy-metric-names): Useful for converting non-Prometheus aware metrics to metrics with label metadata.
+- [Deleting time series from Prometheus](https://www.robustperception.io/deleting-time-series-from-prometheus). Also, the [official API docs](https://prometheus.io/docs/prometheus/latest/querying/api/#clean-tombstones) mentions the _clean tombstones_ api.
 ## Promql
 
 - [Using `irate()` vs `rate()`](https://www.robustperception.io/irate-graphs-are-better-graphs): TLDR - Prefer `irate()` for more responsive graphs, and `rate()` for lower-noise alerting.
+- [Understanding Machine CPU usage](https://www.robustperception.io/understanding-machine-cpu-usage) is a good primer on calculating CPU usage
 
 ## Other
 
